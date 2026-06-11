@@ -299,7 +299,7 @@ function Index() {
                     data-hover
                     className="group border-b border-white/10 py-6 md:py-7 flex flex-col md:flex-row md:items-center gap-2 md:gap-8 hover:bg-[#141414] hover:pl-6 transition-all"
                   >
-                    <span className="font-display text-red w-20 text-lg">{m.c}</span>
+                    <span className="font-display text-red w-32 shrink-0 text-lg">{m.c}</span>
                     <div className="flex-1">
                       <div className="font-display uppercase text-xl md:text-2xl group-hover:translate-x-1 transition-transform inline-block">
                         {m.t}
