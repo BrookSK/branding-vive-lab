@@ -150,7 +150,7 @@ export default function App() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#0D0D0D", color: "#fff" }}>
+    <div className="min-h-screen overflow-x-hidden" style={{ backgroundColor: "#0D0D0D", color: "#fff" }}>
       {/* Topbar */}
       <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md" style={{ background: "rgba(13,13,13,0.7)", borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
@@ -204,7 +204,7 @@ export default function App() {
           <div className="mx-auto max-w-7xl px-6 py-24 md:py-32">
             <div className="reveal mb-16 md:mb-24">
               <div className="text-sm uppercase tracking-[0.3em] text-red mb-4">— O problema</div>
-              <h2 className="font-display text-5xl md:text-7xl uppercase">
+              <h2 className="font-display text-4xl md:text-5xl lg:text-7xl uppercase">
                 Reconhece alguma
                 <br /> dessas situações?
               </h2>
@@ -230,7 +230,7 @@ export default function App() {
           <div className="mx-auto max-w-7xl px-6 py-24 md:py-32">
             <div className="reveal mb-16">
               <div className="text-sm uppercase tracking-[0.3em] text-red mb-4">— Branding Vivo</div>
-              <h2 className="font-display text-5xl md:text-7xl uppercase max-w-4xl">
+              <h2 className="font-display text-4xl md:text-5xl lg:text-7xl uppercase max-w-4xl">
                 O processo em <span className="text-red">quatro etapas</span>, do fundamento à ativação
               </h2>
               <p className="mt-8 max-w-3xl text-lg text-white/70 leading-relaxed">
@@ -314,7 +314,7 @@ export default function App() {
           <div className="mx-auto max-w-7xl px-6 py-24 md:py-32">
             <div className="reveal mb-16">
               <div className="text-sm uppercase tracking-[0.3em] text-red mb-4">— Para quem é</div>
-              <h2 className="font-display text-5xl md:text-7xl uppercase">É para você se...</h2>
+              <h2 className="font-display text-4xl md:text-5xl lg:text-7xl uppercase">É para você se...</h2>
             </div>
             <div className="grid md:grid-cols-2 gap-10 md:gap-16 reveal">
               <p className="text-lg md:text-xl text-white/85 leading-relaxed border-l-2 border-red pl-6">
@@ -343,15 +343,15 @@ export default function App() {
         {/* OFERTA */}
         <section id="oferta" className="border-t border-white/10">
           <div className="mx-auto max-w-7xl px-6 py-24 md:py-32">
-            <div className="reveal grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
-              <div>
+            <div className="reveal grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+              <div className="min-w-0">
                 <div className="text-sm uppercase tracking-[0.3em] text-red mb-4">— Oferta</div>
-                <h2 className="font-display text-5xl md:text-7xl uppercase leading-[0.9]">
+                <h2 className="font-display text-4xl md:text-5xl lg:text-7xl uppercase leading-[0.9] break-words">
                   Metodologia <span className="text-red">Branding Vivo</span>
                 </h2>
-                <div className="mt-10 flex items-baseline gap-5">
+                <div className="mt-10 flex flex-wrap items-baseline gap-5">
                   <span className="text-white/40 text-2xl line-through font-display">R$ 397</span>
-                  <span className="font-display text-6xl md:text-7xl">R$ 197</span>
+                  <span className="font-display text-5xl md:text-6xl lg:text-7xl">R$ 197</span>
                 </div>
                 <div className="mt-3 text-white/70">Acesso por 1 ano · Acesso imediato</div>
                 <a
@@ -366,7 +366,7 @@ export default function App() {
                   7 dias de garantia. Se não for o que esperava, devolvemos o valor integral.
                 </p>
               </div>
-              <div className="bg-[#141414] border border-white/10 p-8 md:p-10">
+              <div className="bg-[#141414] border border-white/10 p-8 md:p-10 min-w-0">
                 <div className="font-display uppercase tracking-wider text-red text-sm mb-6">
                   Inclusos
                 </div>
@@ -388,7 +388,7 @@ export default function App() {
           <div className="mx-auto max-w-5xl px-6 py-24 md:py-32">
             <div className="reveal mb-16">
               <div className="text-sm uppercase tracking-[0.3em] text-red mb-4">— FAQ</div>
-              <h2 className="font-display text-5xl md:text-7xl uppercase">Perguntas</h2>
+              <h2 className="font-display text-4xl md:text-5xl lg:text-7xl uppercase">Perguntas</h2>
             </div>
             <div className="reveal border-t border-white/10">
               {faq.map((f, i) => {
@@ -432,7 +432,7 @@ export default function App() {
           <div className="mx-auto max-w-7xl px-6 py-16">
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-10">
               <div>
-                <div className="font-display uppercase text-5xl md:text-7xl">
+                <div className="font-display uppercase text-4xl md:text-5xl lg:text-7xl">
                   Tuca <span className="text-red">Lab</span>
                 </div>
                 <p className="mt-4 text-white/70 max-w-md">
