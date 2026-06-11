@@ -236,7 +236,7 @@ function Index() {
             <div className="reveal mb-16">
               <div className="text-sm uppercase tracking-[0.3em] text-red mb-4">— Branding Vivo</div>
               <h2 className="font-display text-5xl md:text-7xl uppercase max-w-4xl">
-                O processo em quatro etapas, do fundamento à ativação
+                O processo em <span className="text-red">quatro etapas</span>, do fundamento à ativação
               </h2>
               <p className="mt-8 max-w-3xl text-lg text-white/70 leading-relaxed">
                 Estratégia antes de estética. A paleta tem origem no posicionamento. A tipografia tem
