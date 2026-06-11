@@ -1,9 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-
-export const Route = createFileRoute("/")({
-  component: Index,
-});
 
 const problemas = [
   {
@@ -148,7 +143,7 @@ function useCursor() {
   }, []);
 }
 
-function Index() {
+export default function App() {
   useReveal();
   useCursor();
   const [openMet, setOpenMet] = useState<number | null>(0);
