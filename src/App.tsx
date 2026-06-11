@@ -159,7 +159,7 @@ export default function App() {
             <span className="font-display text-lg tracking-tight uppercase">Tuca Lab</span>
           </a>
           <a
-            href="#oferta"
+            href="https://myacademy.com.br/e/agencia-tuca/comprar/6222692e-3093-463b-8a14-a2c6a76ef7cb"
             data-hover
             className="text-sm font-medium px-5 py-2.5 bg-red text-white hover:-translate-y-0.5 transition-transform"
           >
@@ -183,7 +183,7 @@ export default function App() {
             </p>
             <div className="mt-12 flex flex-wrap items-center gap-6">
               <a
-                href="#oferta"
+                href="https://myacademy.com.br/e/agencia-tuca/comprar/6222692e-3093-463b-8a14-a2c6a76ef7cb"
                 data-hover
                 className="inline-flex items-center gap-3 bg-red px-7 py-4 text-base font-medium hover:-translate-y-1 transition-transform"
               >
@@ -355,7 +355,7 @@ export default function App() {
                 </div>
                 <div className="mt-3 text-white/70">Acesso por 1 ano · Acesso imediato</div>
                 <a
-                  href="#"
+                  href="https://myacademy.com.br/e/agencia-tuca/comprar/6222692e-3093-463b-8a14-a2c6a76ef7cb"
                   data-hover
                   className="mt-10 inline-flex items-center gap-3 bg-red px-8 py-5 text-lg font-medium hover:-translate-y-1 transition-transform"
                 >
