@@ -173,7 +173,7 @@ export default function App() {
         <section className="mx-auto max-w-7xl px-6 pt-20 pb-32 md:pt-32 md:pb-48">
           <div className="reveal">
             <div className="text-sm uppercase tracking-[0.3em] text-red mb-8">— Curso · Tuca Lab</div>
-            <h1 className="font-display uppercase text-[14vw] md:text-[9vw] leading-[0.85] tracking-tight">
+            <h1 className="font-display uppercase text-[12vw] md:text-[8vw] leading-[0.85] tracking-tight">
               Metodologia
               <br />
               <span className="text-red">Branding</span> Vivo

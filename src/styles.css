@@ -67,6 +67,7 @@
     color: #FFFFFF;
     font-family: var(--font-body);
     cursor: none;
+    overflow-x: hidden;
   }
 
   @media (max-width: 768px) {
